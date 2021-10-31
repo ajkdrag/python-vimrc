@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+apt update
 apt install vim
 apt install wget
 
