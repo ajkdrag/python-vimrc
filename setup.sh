@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+apt install vim
+apt install wget
+
 wrapper() {
   RED="\033[0;31m"
   GREEN="\033[0;32m"
