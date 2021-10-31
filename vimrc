@@ -95,7 +95,6 @@ set exrc                                    " enable usage of additional .vimrc 
 set secure                                  " prohibit .vimrc files to execute shell, create files, etc...
 
 " Additional mappings for Esc (useful for MacBook with touch bar)
-inoremap jj <Esc>
 inoremap jk <Esc>
 
 "=====================================================
