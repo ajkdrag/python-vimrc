@@ -2,6 +2,7 @@
 apt update
 apt install vim
 apt install wget
+apt install ctags
 
 wrapper() {
   RED="\033[0;31m"
