@@ -103,8 +103,9 @@ inoremap jk <Esc>
 tab sball
 set switchbuf=useopen
 set laststatus=2
-nmap <F9> :bprev<CR>
-nmap <F10> :bnext<CR>
+nmap <TAB> :bnext<CR>
+nmap <S-TAB> :bprev<CR>
+nmap <Leader>d :bp\|bd #<CR>
 nmap <silent> <leader>q :SyntasticCheck # <CR> :bp <BAR> bd #<CR>
 
 "" Search settings
@@ -133,7 +134,7 @@ autocmd BufEnter *.py :call tagbar#autoopen(0)
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '__pycache__$']     " Ignore files in NERDTree
 let NERDTreeWinSize=40
 autocmd VimEnter * if !argc() | NERDTree | endif  " Load NERDTree only if vim is run without arguments
-nmap " :NERDTreeToggle<CR>
+nmap <leader>e :NERDTreeToggle<CR>
 
 "=====================================================
 "" SnipMate settings
